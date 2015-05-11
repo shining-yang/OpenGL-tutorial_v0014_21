@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E6D86358-7D0C-4058-9076-FE75FB046919}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\AntTweakBar-1.16\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\include\GLFW;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glm-0.9.4.0;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glew-1.9.0\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\AntTweakBar-1.16\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\include\GLFW;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glm-0.9.4.0;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glew-1.9.0\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\AntTweakBar-1.16\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\include\GLFW;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glm-0.9.4.0;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glew-1.9.0\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\AntTweakBar-1.16\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\include\GLFW;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glm-0.9.4.0;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glew-1.9.0\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\include;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\7d8b44bdeb8caac04b97c05206b39bd7\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Shining/Downloads/OpenGL-tutorial_v0014_21 -BD:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build/CMakeFiles/7d8b44bdeb8caac04b97c05206b39bd7/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCXXCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeRCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeSystem.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\code\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\contrib\zlib\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletCollision\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\LinearMath\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\docs\Doxyfile.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\config.h.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfig.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfigVersion.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\src\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\contrib\zlib\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\code\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Shining/Downloads/OpenGL-tutorial_v0014_21 -BD:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build/CMakeFiles/7d8b44bdeb8caac04b97c05206b39bd7/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCXXCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeRCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeSystem.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\code\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\contrib\zlib\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletCollision\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\LinearMath\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\docs\Doxyfile.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\config.h.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfig.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfigVersion.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\src\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\contrib\zlib\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\code\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Shining/Downloads/OpenGL-tutorial_v0014_21 -BD:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build/CMakeFiles/7d8b44bdeb8caac04b97c05206b39bd7/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCXXCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeRCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeSystem.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\code\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\contrib\zlib\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletCollision\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\LinearMath\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\docs\Doxyfile.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\config.h.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfig.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfigVersion.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\src\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\contrib\zlib\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\code\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Shining/Downloads/OpenGL-tutorial_v0014_21 -BD:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Shining/Downloads/OpenGL-tutorial_v0014_21/_build/CMakeFiles/7d8b44bdeb8caac04b97c05206b39bd7/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeCXXCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeRCCompiler.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\3.1.2\CMakeSystem.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\code\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\assimp-3.0.1270\contrib\zlib\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletCollision\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\bullet-2.81-rev2613\src\LinearMath\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\docs\Doxyfile.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\CMakeLists.txt;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\config.h.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfig.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\glfw-3.0.3\src\glfwConfigVersion.cmake.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\glfw-3.0.3\src\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\contrib\zlib\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\assimp-3.0.1270\code\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\generate.stamp;D:\Shining\Downloads\OpenGL-tutorial_v0014_21\_build\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

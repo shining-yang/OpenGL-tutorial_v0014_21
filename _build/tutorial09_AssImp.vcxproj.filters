@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\tutorial09_vbo_indexing\tutorial09_AssImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\objloader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\common\objloader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\tutorial09_vbo_indexing\StandardShading.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="D:\Shining\Downloads\OpenGL-tutorial_v0014_21\tutorial09_vbo_indexing\StandardShading.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{014107FD-9ECA-4760-A67C-712E0F227762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{941D931A-37B9-47B2-9806-05B539DB8883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9DE7675B-E4FC-4259-AB8E-69811237B00C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
