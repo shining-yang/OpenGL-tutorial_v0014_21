@@ -188,6 +188,8 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 
-### 
+### OpenGL-tutorial , some CMake generated files
 *.stamp
 *.exe
+
+!*.vcxproj
