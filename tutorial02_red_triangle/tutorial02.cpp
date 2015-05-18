@@ -62,6 +62,7 @@ int main( void )
 		-1.0f, -1.0f, 0.0f,
 		 1.0f, -1.0f, 0.0f,
 		 0.0f,  1.0f, 0.0f,
+		 1.0f,  2.0f, 0.0f
 	};
 
 	GLuint vertexbuffer;
@@ -82,7 +83,7 @@ int main( void )
 		glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
 		glVertexAttribPointer(
 			vertexPosition_modelspaceID, // The attribute we want to configure
-			3,                  // size
+			4,                  // size
 			GL_FLOAT,           // type
 			GL_FALSE,           // normalized?
 			0,                  // stride
@@ -90,7 +91,7 @@ int main( void )
 		);
 
 		// Draw the triangle !
-		glDrawArrays(GL_TRIANGLES, 0, 3); // 3 indices starting at 0 -> 1 triangle
+		glDrawArrays(GL_TRIANGLES, 0, 4); // 3 indices starting at 0 -> 1 triangle
 
 		glDisableVertexAttribArray(vertexPosition_modelspaceID);
 
