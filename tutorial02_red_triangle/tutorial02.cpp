@@ -58,11 +58,11 @@ int main( void )
 	// Get a handle for our buffers
 	GLuint vertexPosition_modelspaceID = glGetAttribLocation(programID, "vertexPosition_modelspace");
 
-	static const GLfloat g_vertex_buffer_data[] = { 
+	static const GLfloat g_vertex_buffer_data[] = {
 		-1.0f, -1.0f, 0.0f,
 		 1.0f, -1.0f, 0.0f,
 		 0.0f,  1.0f, 0.0f,
-		 1.0f,  2.0f, 0.0f
+		 2.0f,  2.0f, 0.0f
 	};
 
 	GLuint vertexbuffer;
