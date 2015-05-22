@@ -60,8 +60,7 @@ int main(void)
     static const GLfloat g_vertex_buffer_data[] = {
         -1.0f, -1.0f, 0.0f,
         1.0f, -1.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-        4.0f, 4.0f, 0.0f
+        0.0f, 1.0f, 0.0f
     };
 
     GLuint vertexbuffer;
@@ -81,7 +80,7 @@ int main(void)
         glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
         glVertexAttribPointer(
             vertexPosition_modelspaceID, // The attribute we want to configure
-            4,                  // size
+            3,                  // size
             GL_FLOAT,           // type
             GL_FALSE,           // normalized?
             0,                  // stride
